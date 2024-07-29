@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>複合モジュール | タブナビゲーション</title>
+
+        <!-- favicon/webclipicon -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="webclip.png" />
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- js -->
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="l-container">
+            <h1 class="tab-menu-title">タブメニュー</h1>
+
+            <!-- tab-navigation -->
+            <div class="tab-menu">
+                <ul class="tab-menu-container">
+                    <li class="tab-menu-item is-active" data-id="01">menu1</li>
+                    <li class="tab-menu-item" data-id="02">menu2</li>
+                    <li class="tab-menu-item" data-id="03">menu3</li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-content-box is-active" id="01">
+                        <p class="tab-content-text">初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ 初期表示のタブ</p>
+                    </div>
+                    <div class="tab-content-box" id="02">
+                        <p class="tab-panel-text">2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ 2枚目のタブ</p>
+                    </div>
+                    <div class="tab-content-box" id="03">
+                        <p class="tab-panel-text">3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ 3枚目のタブ</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end tab-navigation -->
+        </div>
+    </body>
+</html>
